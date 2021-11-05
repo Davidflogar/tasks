@@ -1,0 +1,192 @@
+/*GENERALS*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,300&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Azeret Mono !important;
+}
+
+body a
+{
+    text-decoration: none;
+}
+
+
+input[type="submit"]
+{
+    display: block;
+    border-radius: 2px;
+    width: auto;
+    padding: 5px;
+    color: #ffff;
+    background: #2979CD;
+    border: 1px solid #11608e;
+    cursor: pointer;
+}
+
+.l
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+table
+{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+td
+{
+    border-top: 1px solid #ccc;
+    padding: 2px;
+}
+/*HEADER*/
+header
+{
+    width: 100%;
+    background-color: #ccc;
+    height: 100px;
+    border-bottom: 2px solid #aaa;
+}
+
+header a img
+{
+    height: 80px;
+}
+
+header a b
+{
+    color: #000;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*REGISTER AND LOG IN*/
+.form_register
+{
+    box-shadow: 2px 2px 2px 2px #aaa;
+    display: block;
+    margin-left: 40%;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.label_form
+{
+    display: block;
+}
+
+.form_input
+{
+    margin-left: 47%;
+    margin-top: 15px;
+}
+
+.alert
+{
+    font-size: 10px;
+}
+
+.account
+{
+    font-size: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.good
+{
+    color: green;
+}
+
+.bad
+{
+    color: red;
+}
+
+/*TASKS*/
+.a_button
+{
+    display: block;
+    border-radius: 2px;
+    width: auto;
+    padding: 5px;
+    color: #ffff;
+    background: #2979CD;
+    border: 1px solid #11608e;
+    cursor: pointer;
+    text-align: center;
+}
+
+.a_button:hover
+{
+    color: #ffff;
+    text-decoration: underline;
+}
+
+.edit
+{
+    color:  green;
+}
+
+.edit:hover
+{
+    color: green;
+    text-decoration: underline;
+}
+
+.delete
+{
+    color:  red;
+}
+
+.delete:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+
+.chores_a
+{
+    color: #0000ff;
+    font-size: 30px;
+}
+
+.chores_a:hover
+{
+    text-decoration: underline;
+}
+
+.search
+{
+    margin-bottom: 10px;
+}
+
+.showall_th
+{
+    border-left: 2px solid #a52a2a;
+}
+
+/*FOOTER*/
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc;
+    color: #000;
+    text-align: center;
+    border-top: 2px solid #aaa;
+}
+
+.footer_l
+{
+    margin-top: 35px;
+}
